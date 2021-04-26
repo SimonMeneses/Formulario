@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 id="tittle">Forumulario</h1>
+            <p id="suervey-form">Thank you for taking the time to help us improve the platform</p>
+        </header>
+        <div class="container-form">
+            <form action="" id="survey-form">
+                <label id="name_label" for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Wilmar Roncancio">
+
+                <label id="email-label" for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="drakowdev@gmail.com">
+
+                <label id="number-label" for="number">Age(optional)</label>
+                <input type="number" id="number" name="number" min="18" max="100" placeholder="27">
+
+                <label for="dropdown">Which option best describes your current role?</label>
+                <select name="dropdown" id="dropdown">
+                    <option value="" selected disabled hidden>Choose here</option>
+                    <option value="Student">Student</option>
+                    <option value="Full time job">Full time job</option>
+                    <option value="Full time learner">Full time learner</option>
+                    <option value="Prefer not to say">Prefer not to say</option>
+                    <option value="Other">Other</option>
+                </select>
+                <label for="radio1">Would you recommend freeCodeCamp to a friend?</label>
+                <input class="radio" type="radio" name="radio1" id="" value="Definitely"><span>Definitely</span>
+                <br>
+                <input class="radio" type="radio" name="radio1" id="" value="Maybe"><span>Maybe</span>
+                <br>
+                <input class="radio" type="radio" name="radio1" id="" value="Not sure"><span>Not sure</span>
+                <br>
+                <label for="">What would you like to see improved? (Check all that apply)</label>
+                <input type="checkbox" name="" id="" value="Front-end Projects"> <span>Front-end Projects</span>
+                <br>
+                <input type="checkbox" name="" id="" value="Back-end Projects"> <span>Back-end Projects</span>
+                <br>
+                <input type="checkbox" name="" id="" value="Data Visualization"> <span>Data Visualization</span>
+                <br>
+                <input type="checkbox" name="" id="" value="Challenge"> <span>Challenge</span>
+                <br>
+                <input type="checkbox" name="" id="" value="Open Source Community"> <span>Open Source Community</span>
+                <br>
+                <input type="checkbox" name="" id="" value="Gitter help rooms"> <span>Gitter help rooms</span>
+                <br>
+                <input type="checkbox" name="" id="" value="Videos"> <span>Videos</span>
+                <br>
+                <input type="checkbox" name="" id="" value="City Meetups"> <span>City Meetups</span>
+                <br>
+                <input type="checkbox" name="" id="" value="Wiki"> <span>Wiki</span>
+                <br>
+                <input type="checkbox" name="" id="" value="Forum"> <span>Forum</span>
+                <br>
+                <input type="checkbox" name="" id="" value="Additional Courses"> <span>Additional Courses</span>
+                <br>
+                <label for="text-area">Any comments or suggestions?</label>
+                <textarea name="text-area" id="text-area" cols="30" rows="10" placeholder="Enter your coment here..."></textarea>
+                <div class="div-btn">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

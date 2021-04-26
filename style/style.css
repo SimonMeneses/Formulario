@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: system-ui, cursive;
+    color: aliceblue;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    background-image: url(https://i.pinimg.com/originals/bc/63/aa/bc63aa355e006bbd52d7db572d7a80e9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    top: 0;
+    padding-top: 3rem;
+
+
+}
+
+.container-form {
+    background-color: rgba(0,0,0, 0.7);
+    width: 50%;
+    height: auto;
+    padding: 1rem;
+    margin: auto;
+    display: flex;
+    text-align: left;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+
+}
+
+
+.container-form input {
+    margin-bottom: 1rem;
+    
+}
+
+
+#survey-form{
+    width: 100%;
+
+
+}
+
+input[type=text],input[type=email],input[type=number], label  {
+    display: block;
+    padding: 5px;
+    width: 100%;
+}
+
+textarea {
+    padding: 5px;
+    width: 100%;
+    color: black;
+
+}
+
+select, option {
+    padding: 5px;
+    width: 100%;
+    color: black;
+}
+
+.container .container-form form span .radio {
+    display: flex!important;
+
+}
+
+label {
+    margin-top: 1rem;
+    font-size: 120%;
+    color: rgb(95, 92, 92);
+    text-shadow: 0px 0px 2px blue;
+}
+
+.div-btn {
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.div-btn > input {
+    width: 50%;
+    background-color:green;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.div-btn > input:hover {
+    background-color: rgb(85, 228, 85);
+    transform: scale(1.1);
+}
